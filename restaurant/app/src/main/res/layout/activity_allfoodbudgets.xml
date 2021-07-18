@@ -1,0 +1,375 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ECD5D5"
+    tools:context=".allfoodbudgets">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="71dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="BALANCED DIET "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttona"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/btn_rounded1"
+            android:padding="10dp"
+            android:text="view your diet" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"
+            android:text=" Carbohydrates total in your balanced diet "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/btn_rounded1"
+            android:padding="10dp"
+            android:text="calculate" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"
+            android:text="Protein total in your balanced diet "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/btn_rounded1"
+            android:padding="10dp"
+            android:text="calculate" />
+
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"
+            android:text="Vitamin total in your balanced diet "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <Button
+            android:padding="10dp"
+            android:id="@+id/button3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/btn_rounded1"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="calculate" />
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"
+            android:text="CARBOHYDRATES AND PROTEIN  DIET "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+<Button
+        android:id="@+id/buttonaa"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/btn_rounded1"
+        android:padding="10dp"
+        android:text="view your diet" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text=" Carbohydrates total in your carbohydrates and protein diet"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <Button
+            android:padding="10dp"
+            android:id="@+id/button11"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/btn_rounded1"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="calculate" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"
+            android:text="Protein total in your carbohydrates protein diet "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <Button
+            android:padding="10dp"
+            android:id="@+id/button22"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/btn_rounded1"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="calculate" />
+
+        <TextView
+            android:id="@+id/textview6"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"
+            android:text="  CARBOHYDRATES AND VITAMIN diet "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <Button
+            android:padding="10dp"
+            android:id="@+id/buttonaaa"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/btn_rounded1"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="view diet" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"
+            android:text=" Carbohydrates total in your carbohydrates and vitamin diet"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <Button
+            android:padding="10dp"
+            android:id="@+id/button111"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/btn_rounded1"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="calculate" />
+
+        <TextView
+            android:id="@+id/textview7"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"
+            android:text=" vitamin total in your carbohydrates and vitamin diet"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <Button
+            android:padding="10dp"
+            android:id="@+id/button333"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/btn_rounded1"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="calculate" />
+
+        <TextView
+            android:id="@+id/textview8"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="   VITAMIN AND PROTEIN "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <Button
+            android:padding="10dp"
+            android:id="@+id/buttonaaaa"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/btn_rounded1"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="view diet" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"
+            android:text=" Vitamin total in your  vitamin and protein diet"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/button33333"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/btn_rounded1"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="calculate" />
+
+        <TextView
+            android:id="@+id/textview9"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:padding="10dp"
+            android:text=" protein total in your protein and vitamin diet"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <Button
+            android:padding="10dp"
+            android:id="@+id/button2222"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/btn_rounded1"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="calculate" />
+        <TextView
+            android:id="@+id/textview10"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

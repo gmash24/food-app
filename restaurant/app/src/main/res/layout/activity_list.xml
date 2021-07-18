@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/round_button"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/simpleTextView0"
+        android:layout_width="228dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/round_button"
+        android:padding="18dip"
+        android:text="Prefered food type"
+        android:textAlignment="center"
+        android:textColor="#002"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/nutrientsbutton"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/cardview_light_background"
+        android:padding="18dip"
+        android:text="carbohydrates"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <Button
+
+        android:id="@+id/vitaminsbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/cardview_light_background"
+        android:padding="18dip"
+        android:text="Proteins"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <Button
+
+        android:id="@+id/carbohydratesbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/cardview_light_background"
+        android:padding="18dip"
+        android:text="Vitamins"
+        android:textColor="#000"
+        android:textSize="14sp" />
+</TableLayout>
+

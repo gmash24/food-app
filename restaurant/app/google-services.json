@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "802608219696",
+    "firebase_url": "https://nutrition-app-1df9e.firebaseio.com",
+    "project_id": "nutrition-app-1df9e",
+    "storage_bucket": "nutrition-app-1df9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802608219696:android:c8d8fd0b686f657039cff5",
+        "android_client_info": {
+          "package_name": "com.e.nutrition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802608219696-jfnmaegu1jfi5kj7hogu1duap94pmeq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7NFOBCXMeHlw4xWfJXJqVJSDwDA8zYAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802608219696-jfnmaegu1jfi5kj7hogu1duap94pmeq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802608219696:android:2c1d4e6d0a24916039cff5",
+        "android_client_info": {
+          "package_name": "com.e.restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802608219696-jfnmaegu1jfi5kj7hogu1duap94pmeq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7NFOBCXMeHlw4xWfJXJqVJSDwDA8zYAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802608219696-jfnmaegu1jfi5kj7hogu1duap94pmeq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

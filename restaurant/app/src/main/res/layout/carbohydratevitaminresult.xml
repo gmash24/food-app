@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECD5D5"
+    tools:context=".carbohydratesvitaminresult">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="your carbohydrate and vitamin diet is:"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/viewfood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_rounded1"
+        android:text="view result">
+
+    </Button>
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="267dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="#F7F4F4"
+        android:ems="10"
+        android:hint="enter food id"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark">
+
+    </EditText>
+    <Button
+        android:id="@+id/cleardb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_rounded1"
+        android:text="clear result">
+    </Button>
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_rounded1"
+        android:text="start new diet">
+    </Button>
+</LinearLayout>
+
+
+

@@ -1,0 +1,81 @@
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="#ECD5D5"
+tools:context=".foodoption">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#ECD5D5"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/qw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/croissant_one"
+        android:text="What would you want in your diet?"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/balanced"
+        android:layout_width="326dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/btn_rounded1"
+        android:padding="18dip"
+        android:text="a balanced diet"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/cp"
+        android:layout_width="325dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/btn_rounded1"
+        android:padding="18dip"
+        android:text="carbohydrates and proteins"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/cv"
+        android:layout_width="326dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/btn_rounded1"
+        android:padding="18dip"
+        android:text="carbohydrates and vitamins"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/vp"
+        android:layout_width="323dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/btn_rounded1"
+        android:padding="18dip"
+        android:text="vitamins and proteins"
+        android:textColor="#000"
+        android:textSize="14sp" />
+</LinearLayout>
+</ScrollView>

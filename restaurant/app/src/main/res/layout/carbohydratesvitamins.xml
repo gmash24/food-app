@@ -1,0 +1,630 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_button"
+    tools:context=".carbohydratesvitamin">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ECD5D5"
+        tools:context=".carbohydratesvitamin">
+        <TableRow>
+
+            <TextView
+                android:layout_marginStart="150dp"
+                android:fontFamily="cursive"
+                android:padding="8dp"
+                android:text="Carbohydrates"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/chapati"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_rounded1"
+                android:padding="@dimen/fab_margin"
+                android:text="chapati"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/chaptiprice"
+                android:padding="10dip"
+                android:text="ksh 10"
+                android:textColor="#000" />
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/ugali"
+                android:padding="10dip"
+                android:text="ugali"
+                android:background="@drawable/btn_rounded1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/ugaliprice"
+                android:padding="10dip"
+                android:text="ksh 20"
+                android:textColor="#000" />
+
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/rice"
+                android:padding="10dip"
+                android:text="rice"
+                android:background="@drawable/btn_rounded1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000" />
+            <TextView
+                android:text="ksh 30"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/chips"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_rounded1"
+                android:padding="10dp"
+                android:text="chips"
+                android:textColor="#000" />
+            <TextView
+                android:text="ksh 70"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_marginStart="150dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:padding="8dp"
+                android:text="part 2"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/matoke"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_rounded1"
+                android:padding="10dp"
+                android:text="matoke"
+                android:textColor="#000" />
+            <TextView
+                android:text="ksh 20"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bhajia"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_rounded1"
+                android:padding="10dip"
+                android:text="bhajia"
+                android:textColor="#000" />
+
+            <TextView
+                android:padding="10dip"
+                android:text="ksh 10"
+                android:textColor="#000" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/cassava"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_rounded1"
+                android:padding="10dp"
+                android:text="cassava"
+                android:textColor="#000" />
+            <TextView
+                android:text="ksh 15"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="150dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:padding="8dip"
+                android:text="part 3"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/arrow_roots"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_rounded1"
+                android:padding="10dip"
+                android:text="arrow roots"
+                android:textColor="#000" />
+            <TextView
+                android:text="ksh 10"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/pilau"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_rounded1"
+                android:padding="10dip"
+                android:text="pilau"
+                android:textColor="#000" />
+            <TextView
+                android:text="ksh 5"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/yams"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_rounded1"
+                android:padding="10dip"
+                android:text="yams"
+                android:textColor="#000" />
+            <TextView
+                android:text="ksh 20"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+         <TextView
+        android:layout_height="match_parent"
+        android:layout_marginStart="150dp"
+        android:fontFamily="cursive"
+        android:padding="8dp"
+        android:text="Vitamins"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/apples"
+                android:layout_width="242dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_rounded1"
+                android:padding="@dimen/fab_margin"
+                android:text="apples"
+                android:textColor="#000" />
+            <TextView
+                android:text="ksh 10"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/orange"
+                android:padding="10dip"
+                android:text="orange"
+                android:background="@drawable/btn_rounded1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000" />
+            <TextView
+                android:text="ksh 20"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/banana"
+                android:padding="10dip"
+                android:text="banana"
+                android:background="@drawable/btn_rounded1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000" />
+            <TextView
+                android:text="ksh 30"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/mangoes"
+                android:text="mangoes"
+                android:textColor="#000"
+                android:background="@drawable/btn_rounded1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"/>
+            <TextView
+                android:text="ksh 70"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_marginStart="150dp"
+                android:fontFamily="cursive"
+                android:padding="8dp"
+                android:text="plants"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:text="kales"
+                android:id="@+id/kales"
+                android:textColor="#000"
+                android:background="@drawable/btn_rounded1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"/>
+            <TextView
+                android:text="ksh 20"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:text="cabbage"
+                android:textColor="#000"
+                android:id="@+id/cabbage"
+                android:background="@drawable/btn_rounded1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dip"
+                />
+            <TextView
+                android:text="ksh 10"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="spinach"
+                android:id="@+id/spinach"
+                android:textColor="#000"
+                android:background="@drawable/btn_rounded1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"/>
+            <TextView
+                android:text="ksh 15"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="150dp"
+                android:fontFamily="cursive"
+                android:padding="8dip"
+                android:text="Vitamins"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="10dp"/>
+
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="broccoli"
+                android:id="@+id/broccoli"
+                android:textColor="#000"
+                android:background="@drawable/btn_rounded1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dip"
+                />
+            <TextView
+                android:text="ksh 10"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="mushrooms"
+                android:id="@+id/mushrooms"
+                android:textColor="#000"
+                android:background="@drawable/btn_rounded1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dip"
+                />
+            <TextView
+                android:text="ksh 5"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="traditional greens"
+                android:id="@+id/traditional_greens"
+                android:textColor="#000"
+                android:background="@drawable/btn_rounded1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dip"
+                />
+            <TextView
+                android:text="ksh 20"
+                android:textColor="#000"
+                android:padding="10dip"/>
+
+        </TableRow>
+
+
+        <EditText
+            android:id="@+id/food"
+            android:layout_width="267dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="#F7F4F4"
+            android:ems="10"
+            android:hint="Enter your carbohydrate food"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark">
+
+        </EditText>
+        <EditText
+            android:id="@+id/quantity"
+            android:layout_width="267dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="#F7F4F4"
+            android:ems="10"
+            android:hint="insert your quantity"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark">
+
+        </EditText>
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="267dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="#F7F4F4"
+            android:ems="10"
+            android:hint="enter food price"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark">
+
+        </EditText>
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:text="your total  amount  on carbohydrates is:"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <EditText
+        android:id="@+id/food2"
+        android:layout_width="267dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="#F7F4F4"
+        android:ems="10"
+        android:hint="Enter your vitamin food"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark">
+
+        </EditText>
+        <EditText
+        android:id="@+id/quantity2"
+        android:layout_width="267dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="#F7F4F4"
+        android:ems="10"
+        android:hint="insert your quantity"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark">
+
+        </EditText>
+        <EditText
+        android:id="@+id/price2"
+        android:layout_width="267dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="#F7F4F4"
+        android:ems="10"
+        android:hint="enter food price"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark">
+
+        </EditText>
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:text="your total  amount  on vitamin is:"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/result2"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/addfood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_rounded1"
+            android:text="add food">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/proccedtovitamins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_rounded1"
+            android:text="sse your diet  "/>
+    </TableLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECD5D5"
+    tools:context=".food">
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#ECD5D5"
+    android:layout_height="match_parent"
+    tools:context=".food">
+
+    <TextView
+        android:id="@+id/simpleTextView0"
+        android:layout_width="228dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:padding="18dip"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textColor="#002"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/nutrientsbutton"
+        android:layout_width="147dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/btn_rounded1"
+        android:padding="18dip"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:text="Know your nutrients"
+         />
+
+    <Button
+
+        android:id="@+id/budget"
+        android:layout_width="147dp"
+        android:layout_height="64dp"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/btn_rounded1"
+        android:padding="18dip"
+        android:text="Get a food budget"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <Button
+
+        android:id="@+id/diet"
+        android:layout_width="147dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/btn_rounded1"
+        android:padding="18dip"
+        android:text="Get your diet"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <Button
+
+        android:id="@+id/bmi"
+        android:layout_width="147dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/btn_rounded1"
+        android:padding="18dip"
+        android:text="calculate your BMI"
+        android:textColor="#000"
+        android:textSize="14sp" />
+    </TableLayout>
+
+</ScrollView>

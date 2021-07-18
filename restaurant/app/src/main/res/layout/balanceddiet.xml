@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:background="#ECD5D5"
+    tools:text=".foodinfo"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/foodie"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:fontFamily="@font/croissant_one"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#0C0C0C"
+            android:textSize="30sp"
+            android:text="CARBOHYDRATES"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/carbodef"
+            android:textAlignment="center"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="24sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/foodie1"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:fontFamily="@font/croissant_one"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#0B0B0B"
+            android:textSize="30sp"
+            android:text="PROTEINS"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/proteirndef"
+            android:textAlignment="center"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="24sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/foodie2"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:fontFamily="@font/croissant_one"
+            android:textAlignment="center"
+            android:text="Vitamins"
+            android:textAllCaps="true"
+            android:textColor="#080808"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+          />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/vitamindef"
+            android:textAlignment="center"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="24sp"
+            android:typeface="normal" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+

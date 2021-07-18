@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">restaurant</string>
+    <string name="title_activity_food">food</string>
+    <string name="title_activity_booking">booking</string>
+    <string name="carbohydrates">carbohydrates</string>
+    <string name="proteins">proteins</string>
+    <string name="vitamins">vitamins</string>
+    <string name="carbodef">
+        They are naturally occurring sugars,starches and fiber which are found mainly plant food and can occur in dairy products.\n
+        They play a couple of roles in a living organism such as providing energy for day to day activities.\n
+        Some food that are high in carbohydrates include:\n bread\n chapati\n ugali\nrice\nchips\nbhajia\npilau\nyams\narrow roots and many more.
+    </string>
+
+    <string name="proteirndef">they are macro nutrients that are important in building muscle mass.they are commonly found in animal and plant products.\n
+        they are responsible for growth and maintenance of body tissues,transport and store nutrients,balancing body fluids and maintaining proper pH.\n
+        Food that are high in proteins include: mutton\nfish\nbeef\npork\nbeans\ngreen grams\ncow peas\neggs\nyogurt\nmilk
+    </string>
+
+    <string name="vitamindef">
+        they are micro nutrients that are required by the body to carry out a range of functions.They are categorized into two (fat soluble and water soluble vitamins).\n
+        examples of vitamins include Vitamin A,B1,B2,B3,B5,B6,B7,B9,B12,C,D,E and K\n
+        Food that contain vitamins include: apples\noranges\nspinach\ncabbage\nbananas\nbroccoli\nmushrooms\ntraditional greens
+    </string>
+    <string name="very_severely_underweight">extremely underweight</string>
+    <string name="severely_underweight"> very underweight</string>
+    <string name="underweight">underweight</string>
+    <string name="normal">normal</string>
+    <string name="overweight">overweight</string>
+    <string name="obese_class_i"> moderately obese</string>
+    <string name="obese_class_ii">very obese</string>
+    <string name="obese_class_iii">extremely obese</string>
+    <string-array name="foodcarbohydrates">
+        <item>chapati</item>
+        <item>matoke</item>
+        <item>yams</item>
+        <item>bhajia</item>
+        <item>rice</item>
+        <item>pilau</item>
+    </string-array>
+    <string-array name="proteins1">
+        <item>beans</item>
+        <item>eggs</item>
+        <item>milk</item>
+        <item>peas</item>
+        <item>chicken</item>
+        <item>fish</item>
+        <item>mutton</item>
+        <item>beef</item>
+    </string-array>
+</resources>
